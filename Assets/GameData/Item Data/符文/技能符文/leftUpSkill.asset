@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789493e681b8bf4fbf9601385856eed, type: 3}
+  m_Name: leftUpSkill
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: "\xB7\u7729\u6655\u7B26\u6587\xB7"
+  itemIcon: {fileID: 21300000, guid: 0b4bfce06893f484eb8d87d702555067, type: 3}
+  itemSprite: {fileID: 21300000, guid: 58c5766d9d9dcbb4c9b8ae6ceac33471, type: 3}
+  itemAmount: 1
+  description: leftUpSkill
+  stackable: 0
+  Prefab: {fileID: 7530424932317165909, guid: 01367407dbd272649b1960eb7cd66850, type: 3}

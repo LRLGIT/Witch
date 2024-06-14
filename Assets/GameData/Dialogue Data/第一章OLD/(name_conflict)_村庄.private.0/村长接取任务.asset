@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u6751\u957F\u63A5\u53D6\u4EFB\u52A1"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: "\u6751\u957F1"
+    image: {fileID: 0}
+    Name: "\u6751\u957F"
+    text: "\u6709\u8C01\u80FD\u6765\u5E2E\u5E2E\u5FD9\u554A"
+    quest: {fileID: 0}
+    options:
+    - text: "\u600E\u4E48\u4E86\uFF1F"
+      targetID: "\u6751\u957F2"
+      takeQuest: 0
+    - text: "\u5047\u88C5\u6CA1\u542C\u89C1"
+      targetID: 
+      takeQuest: 0
+  - ID: "\u6751\u957F2"
+    image: {fileID: 0}
+    Name: "\u6751\u957F"
+    text: "\u597D\u5FC3\u4EBA\uFF0C\u4F60\u53EF\u4EE5\u53BB\u5E2E\u6211\u62FF\u4E00\u4E0B\u836F\u5417?\u6211\u7684\u59BB\u5B50\u53D1\u9AD8\u70E7\u4E86\uFF0C\u4F46\u662F\u6211\u7684\u817F\u811A\u4E0D\u65B9\u4FBF\u53BB\u62FF\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u53BB\u54EA\u513F\u62FF\u836F\uFF1F"
+      targetID: "\u6751\u957F4"
+      takeQuest: 0
+    - text: "\u53EF\u4EE5\u662F\u53EF\u4EE5\uFF0C\u6211\u80FD\u62FF\u5230\u4EC0\u4E48\u62A5\u916C\uFF1F"
+      targetID: "\u6751\u957F3"
+      takeQuest: 0
+    - text: "\u6211\u73B0\u5728\u6709\u6025\u4E8B\uFF0C\u6050\u6015\u5E2E\u4E0D\u4E86\u4F60\u3002"
+      targetID: 
+      takeQuest: 0
+  - ID: "\u6751\u957F3"
+    image: {fileID: 0}
+    Name: "\u6751\u957F"
+    text: "\u4EC0\u4E48\u90FD\u884C\uFF0C\u53EA\u8981\u6211\u80FD\u505A\u5F97\u5230\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u90A3\u5E94\u8BE5\u53BB\u54EA\u91CC\u62FF\u836F\u5462\uFF1F"
+      targetID: "\u6751\u957F4"
+      takeQuest: 0
+  - ID: "\u6751\u957F4"
+    image: {fileID: 0}
+    Name: "\u6751\u957F"
+    text: "\u5728\u8349\u836F\u5E97\u90A3\u91CC\uFF0C\u6CBF\u7740\u8857\u9053\u8D70\u5C31\u80FD\u770B\u5230\uFF0C\u8349\u836F\u5E97\u7684\u9662\u5B50\u91CC\u79CD\u6EE1\u4E86\u82B1\u82B1\u8349\u8349\uFF0C\u5F88\u663E\u773C\uFF0C\u90A3\u5C31\u8BF4\u662F\u6751\u957F\u6258\u4F60\u6765\u53D6\u7684\u3002"
+    quest: {fileID: 11400000, guid: ac4396aee99e82a47bbf51743705904c, type: 2}
+    options:
+    - text: "\u597D\u7684\uFF0C\u90A3\u60A8\u5728\u8FD9\u91CC\u7B49\u4E00\u4E0B\u3002"
+      targetID: 
+      takeQuest: 1
+    - text: "\u8FD8\u662F\u7B97\u4E86\u5427"
+      targetID: 
+      takeQuest: 0

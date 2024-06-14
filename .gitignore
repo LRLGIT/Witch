@@ -1,0 +1,35 @@
+# 忽略所有的 .plastic 目录
+.plastic/
+
+# 忽略所有的 .vs 目录
+.vs/
+
+# 忽略 .vsconfig 文件
+.vsconfig
+
+# 忽略所有的 .sln 文件
+*.sln
+
+# 忽略所有的 .csproj 文件
+*.csproj
+
+# 忽略所有的 .userprefs 文件
+*.userprefs
+
+# 忽略所有的 .unityproj 文件
+*.unityproj
+
+# 忽略 macOS 系统生成的 .DS_Store 文件
+*.DS_Store
+
+# 忽略 Temp 目录及其所有内容
+Temp/
+Library/
+Logs/
+UserSettings/
+ignore.conf
+obj/
+
+
+
+

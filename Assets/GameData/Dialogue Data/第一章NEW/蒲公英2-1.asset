@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u84B2\u516C\u82F12-1"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u5DE8\u5927\u7684\u84B2\u516C\u82F1"
+    END: 0
+    num: 0
+    text: "\u5594\uFF01\u53C8\u89C1\u9762\u4E86\u5C0F\u5973\u5DEB\u3002\u8C22\u8C22\u4F60\u7684\u6C34\u3002\u4F60\u4EC0\u4E48\u65F6\u5019\u8BA4\u8BC6\u7684\u5965\u5C14\u745F\u96C5\uFF1F\u597D\u4E45\u6CA1\u89C1\u5230\u6709\u964C\u751F\u7684\u5973\u5DEB\u6765\u62DC\u8BBF\u5979\u4E86\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: 
+    imageL: {fileID: 0}
+    imageR: {fileID: 21300000, guid: e0f3cc4c44391584ea35eb931b0205a2, type: 3}
+    Name: "\u62DC\u5C14\u5FB7"
+    END: 0
+    num: 0
+    text: "\u6211\u4E0D\u662F\u5973\u5DEB\uFF0C\u975E\u8981\u8BF4\u7684\u8BDD\u4E5F\u5F97\u662F\u5DEB\u5E08\u5427......\u4E0D\u5BF9\uFF0C\u6211\u4E5F\u4E0D\u7B97\u662F\u5DEB\u5E08\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: 
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u5DE8\u5927\u7684\u84B2\u516C\u82F1"
+    END: 0
+    num: 0
+    text: "\u55EF\uFF1F\u4F60\u4E0D\u662F\u5973\u5B69\u5B50\u5417\uFF1F\u8FA8\u8BA4\u4EBA\u7C7B\u7684\u6027\u522B\u5BF9\u6211\u6765\u8BF4\u8FD8\u662F\u592A\u56F0\u96BE\u4E86\uFF0C\u5728\u6211\u770B\u6765\uFF0C\u4F60\u4EEC\u4EBA\u7C7B\u90FD\u957F\u4E00\u4E2A\u6837\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: 
+    imageL: {fileID: 0}
+    imageR: {fileID: 21300000, guid: e0f3cc4c44391584ea35eb931b0205a2, type: 3}
+    Name: "\u62DC\u5C14\u5FB7"
+    END: 1
+    num: 1
+    text: "\u603B\u800C\u8A00\u4E4B\u6211\u53EB\u62DC\u5C14\u5FB7\uFF0C\u522B\u518D\u53EB\u6211\u5C0F\u5973\u5DEB\u4E86\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []

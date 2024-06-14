@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789493e681b8bf4fbf9601385856eed, type: 3}
+  m_Name: mercury
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: mercury
+  itemIcon: {fileID: 21300000, guid: 55174c0f4f305e94ea47ab2e92a06c3e, type: 3}
+  itemSprite: {fileID: 21300000, guid: 72699719c6e70404b8cd1180e9239ce4, type: 3}
+  itemAmount: 1
+  description: mercury
+  stackable: 0
+  Prefab: {fileID: 5831895867416337323, guid: d6e04a43cb30bb64fbdeace8d4b4df6d, type: 3}

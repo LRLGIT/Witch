@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u5987\u4EBA1"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: "\u5987\u4EBA"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u5987\u4EBA"
+    END: 0
+    num: 0
+    text: "\u2026\u2026\u4F60\u662F\u8C01\uFF1F\u6CA1\u5728\u8FD9\u6751\u91CC\u89C1\u8FC7\u4F60\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u4E3B\u89D2"
+    imageL: {fileID: 0}
+    imageR: {fileID: 21300000, guid: e0f3cc4c44391584ea35eb931b0205a2, type: 3}
+    Name: "\u62DC\u5C14\u5FB7"
+    END: 0
+    num: 0
+    text: "\u6211\u60F3\u5411\u4F60\u6253\u542C\u4E00\u4E9B\u4E8B\u60C5\uFF0C\u53EF\u4EE5\u5417\uFF1F"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u5987\u4EBA2"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u5987\u4EBA"
+    END: 1
+    num: 1
+    text: "\u6211\u7B49\u4E0B\u8981\u53BB\u5730\u91CC\u6536\u83DC\uFF0C\u4F60\u53BB\u95EE\u95EE\u522B\u4EBA\u5427\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []

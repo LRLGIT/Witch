@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: f725f76641b662d439fbc22f2fb25bc5
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Preface.unity
+    guid: e5993a21284e545429d09d1c204feaf4
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/ruins.unity
+    guid: 499101c7e6e283a4fb0168e3193e777c
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/VILLAGE/12 village.unity
+    guid: b46039665dce8ea428da7cf4c7525850
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/PUB.unity
+    guid: 9512d14d57498b547a3079f7c4ae1cd6
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/church1F.unity
+    guid: d191c218411970045b57d2868038bbec
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/church_grocrey.unity
+    guid: a16b38b9b9781a34ebaebbb1bd22dc59
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/N_backmountain 1.unity
+    guid: 4611897d8b9657449a7af1ac16274bce
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/home1.unity
+    guid: 07ac27dff9b1bab4bb1b624a46c71564
+  - enabled: 0
+    path: Assets/Scenes/HUAYUAN HOME.unity
+    guid: 9ede52f355153a3439890a79ea7bd3ae
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/watch shop.unity
+    guid: 626639ff130730c40963d1ae16e8d321
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/finalD_backmountain.unity
+    guid: 1778c3aecfd9b4642aeded9be4c0815b
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/witch home-garden.unity
+    guid: 9891ff944ceb53a4a84b37aadb24e6a3
+  - enabled: 0
+    path: Assets/Scenes/setting.unity
+    guid: 3ff37e9c97002a345876bb7118d75ff9
+  - enabled: 0
+    path: Assets/Scenes/ending.unity
+    guid: 4c0ec4b09e5338c43a7d7b549bfa1604
+  - enabled: 0
+    path: "Assets/Scenes/\u7B2C\u4E00\u7AE0_\u539F.unity"
+    guid: 237cdac4a51e5134e9f0bf0d502f45f5
+  - enabled: 0
+    path: Assets/Scenes/test.unity
+    guid: 3c0dcb68778483842b33f0094de25f97
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/Bat sence.unity
+    guid: d94f043836d0fda4e96ea5a605afa7f4
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/Forest.unity
+    guid: 55180c381f16c274281a848e7661c530
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/mushroom_left.unity
+    guid: ec4a8f0a9ff17204bac3700eacf0b911
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/mushroom_right.unity
+    guid: 955122441a6d1e148aa56dbe774a74aa
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/Portal All.unity
+    guid: 617e626867e8c91408b0d716f9d6c20f
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/abandoned shack.unity
+    guid: 02bfd7135f92f2d4fb61ac3d0da4dfa8
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/Protal1.unity
+    guid: 6936ee63c0441e74c86ff44f60607413
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/Silvia room.unity
+    guid: 0b818bb5899894e47bcacc0db555f685
+  - enabled: 1
+    path: "Assets/Scenes/Chapter1/VILLAGE/\u4E0D\u5E2Evillage.unity"
+    guid: fbbb5966482492842b9b2d55df8b096a
+  - enabled: 1
+    path: "Assets/Scenes/Chapter1/VILLAGE/\u5E2Evillage.unity"
+    guid: 916c00272bd6d2448b26896823aa8f19
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/N_backmountain 2.unity
+    guid: 7cc9909ef450b0142bdc339c7d9607ec
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/VILLAGE/9 village.unity
+    guid: 33634f7b0131cfc41ba809666afae5d5
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/D9_backmountain.unity
+    guid: 9409e08c00f92a243bccc7b1a84ccea7
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/ruins02.unity
+    guid: 888d8c4d17bf3f346952fe9871d95a3c
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/little house.unity
+    guid: fbabb8b4b1789be4792df38731d4aeeb
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/D92_backmountain.unity
+    guid: fc55c65ecddb2aa4fb7fc53116704f0a
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/D_backmountain 1.unity
+    guid: 67921b938cc7023418e3cc0ca5f21fd5
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/final2D_backmountain.unity
+    guid: 74ed0d4b5f260e84b9d188469a73245d
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/Protal2.unity
+    guid: 359cd929b7dd881468b62edc697431a8
+  - enabled: 1
+    path: Assets/Scenes/Chapther2/Protal3.unity
+    guid: 9416ef14f9d219f49b1f888fadc7a741
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 155bf6c3328cb754a974215fc2b7a1c3, type: 2}

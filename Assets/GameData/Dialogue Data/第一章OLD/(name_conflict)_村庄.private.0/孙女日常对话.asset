@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u5B59\u5973\u65E5\u5E38\u5BF9\u8BDD"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: "\u5B59\u59731"
+    image: {fileID: 0}
+    Name: 
+    text: "1\uFF0C2,3,4......."
+    quest: {fileID: 0}
+    options:
+    - text: "\u4F60\u5728\u505A\u4EC0\u4E48\u5462\uFF1F"
+      targetID: "\u5B59\u59732"
+      takeQuest: 0
+    - text: "\uFF08\u79BB\u5F00\uFF09"
+      targetID: 
+      takeQuest: 0
+  - ID: "\u5B59\u59732"
+    image: {fileID: 0}
+    Name: 
+    text: "\u5440\uFF01\u662F\u964C\u751F\u7684\u5927\u54E5\u54E5\uFF1F\u4F60\u8D70\u5F00\u70B9\uFF0C\u4F1A\u8E29\u5230\u5B83\u4EEC\u7684\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "...\u5B83\u4EEC\uFF1F"
+      targetID: "\u5B59\u59733"
+      takeQuest: 0
+    - text: "\uFF08\u79BB\u5F00\uFF09"
+      targetID: 
+      takeQuest: 0
+  - ID: "\u5B59\u59733"
+    image: {fileID: 0}
+    Name: 
+    text: "\u5C31\u662F\u8FD9\u7FA4\u5C0F\u8682\u8681\u5566\uFF0C\u6211\u7ECF\u5E38\u6765\u5582\u5B83\u4EEC\uFF0C\u5B83\u4EEC\u90FD\u662F\u6211\u7684\u597D\u670B\u53CB\u54E6\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u597D\u7684\uFF0C\u90A3\u6211\u4E0D\u6253\u6270\u4F60\u55BD\uFF08\u79BB\u5F00\uFF09"
+      targetID: 
+      takeQuest: 0

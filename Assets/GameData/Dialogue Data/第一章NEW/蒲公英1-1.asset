@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u84B2\u516C\u82F11-1"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: "\u84B2\u516C\u82F11"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u5DE8\u5927\u7684\u84B2\u516C\u82F1"
+    END: 0
+    num: 0
+    text: "\u665A\u4E0A\u597D\uFF01\u591A\u7F8E\u4E3D\u7684\u591C\u665A\u3002\u4F60\u662F\u6765\u627E\u5965\u5C14\u745F\u96C5\u7684\u5417\uFF1F\u6211\u6CA1\u89C1\u8FC7\u4F60\uFF0C\u662F\u65B0\u6765\u7684\u5973\u5DEB\u5417\uFF1F"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u4E3B\u89D21"
+    imageL: {fileID: 0}
+    imageR: {fileID: 21300000, guid: e0f3cc4c44391584ea35eb931b0205a2, type: 3}
+    Name: "\u62DC\u5C14\u5FB7"
+    END: 0
+    num: 0
+    text: "\u55EF\uFF1F\u5973\u5DEB\uFF1F\u6211\u4E0D\u662F\u5973\u5DEB\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u84B2\u516C\u82F12"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u5DE8\u5927\u7684\u84B2\u516C\u82F1"
+    END: 0
+    num: 0
+    text: "......\u554A\uFF1F\u600E\u4E48\u4F1A\uFF0C\u4F60\u8EAB\u4E0A\u6709\u7B26\u6587\u548C\u9B54\u6CD5\u7684\u6C14\u606F\uFF0C\u8FD8\u80FD\u627E\u5230\u5965\u5C14\u745F\u96C5\u7684\u5BB6\uFF0C\u80AF\u5B9A\u662F\u548C\u5979\u8BA4\u8BC6\u7684\u5973\u5DEB\u3002\u4F60\u5C31\u522B\u548C\u6211\u5F00\u73A9\u7B11\u4E86\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u4E3B\u89D22"
+    imageL: {fileID: 0}
+    imageR: {fileID: 21300000, guid: e0f3cc4c44391584ea35eb931b0205a2, type: 3}
+    Name: "\u62DC\u5C14\u5FB7"
+    END: 0
+    num: 0
+    text: "......\u7B97\u4E86\u3002\u6211\u786E\u5B9E\u662F\u6765\u627E\u5965\u5C14\u745F\u96C5\u7684\uFF0C\u4F60\u77E5\u9053\u600E\u4E48\u624D\u80FD\u8FDB\u82B1\u56ED\u91CC\u5417\uFF1F"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u84B2\u516C\u82F13"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u5DE8\u5927\u7684\u84B2\u516C\u82F1"
+    END: 0
+    num: 0
+    text: "\u6211\u53EF\u4EE5\u5E26\u4F60\u4E0A\u53BB\u3002\u4F60\u88AB\u90A3\u56E2\u8346\u68D8\u62E6\u4F4F\u4E86\u5BF9\u5427\uFF0C\u5B83\u4E00\u5230\u665A\u4E0A\u5C31\u559C\u6B22\u51FA\u6765\u4E71\u8DD1\uFF0C\u6321\u4F4F\u9053\u8DEF\u4E5F\u662F\u5E38\u6709\u7684\u4E8B\u3002\u6211\u53EF\u4EE5\u5E26\u4F60\u98DE\u8FC7\u53BB\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u84B2\u516C\u82F14"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u5DE8\u5927\u7684\u84B2\u516C\u82F1"
+    END: 1
+    num: 1
+    text: "\u4E0D\u8FC7\u5965\u5C14\u745F\u96C5\u6700\u8FD1\u597D\u4E45\u90FD\u6CA1\u7ED9\u6211\u6D47\u8FC7\u6C34\u4E86\uFF0C\u8981\u5E26\u4F60\u98DE\u8D77\u6765\uFF0C\u529B\u6C14\u4E0D\u591F\u3002\u5982\u679C\u4F60\u80FD\u5E26\u70B9\u6C34\u8FC7\u6765\uFF0C\u6211\u5C31\u53EF\u4EE5\u5E2E\u4F60\u4E86\u3002\u4E5F\u4E0D\u4E00\u5B9A\u662F\u6C34\uFF0C\u6DB2\u4F53\u6216\u8005\u5BCC\u542B\u6C34\u7684\u690D\u7269\u679C\u5B9E\u4E5F\u53EF\u4EE5\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []

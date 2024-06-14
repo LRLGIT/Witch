@@ -1,0 +1,108 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "ActionMap",
+            "id": "2e4094f3-94fb-4430-a5a5-713d6a4e2ab2",
+            "actions": [
+                {
+                    "name": "select",
+                    "type": "Value",
+                    "id": "a9e59441-85b2-4b5a-acd1-cb7995bc89cb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a56cb7f0-86dd-4e52-a170-d2e919ffb503",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "gameplay",
+            "id": "1ceaeca6-0f75-42e8-8a29-37d89ca08e7a",
+            "actions": [
+                {
+                    "name": "plante",
+                    "type": "Value",
+                    "id": "b0dcc404-54bb-4163-a1af-7d906879eca3",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "switchControl",
+                    "type": "Button",
+                    "id": "f70deea2-85cd-4bfd-aaa6-eec4a1ae6db2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "switch",
+                    "type": "Value",
+                    "id": "f04571dd-be4e-4cac-8ff9-b72d36d96d48",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "593c185d-75c4-408c-a6c3-91c52ffbbb26",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "plante",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a4cf79f-39fe-4c0a-b4c2-d2c2913f642a",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switchControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e975bd3-919f-47d9-8605-35f86765577f",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": []
+        }
+    ]
+}

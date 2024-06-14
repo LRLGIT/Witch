@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u9152\u9986\u7ED3\u675F"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 0}
+    Name: 
+    text: "\u6B22\u8FCE\u5149\u4E34\uFF0C\u60A8\u9700\u8981\u4E9B\u4EC0\u4E48"
+    quest: {fileID: 0}
+    options:
+    - text: "\u6765\u676F\u9152\uFF08\u91D1\u5E01\uFF09"
+      targetID: 
+      takeQuest: 0
+    - text: "\u6CA1\u4E8B\u4E86"
+      targetID: 
+      takeQuest: 0

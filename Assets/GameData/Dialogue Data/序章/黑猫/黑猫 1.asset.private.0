@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u9ED1\u732B 1"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: cat1
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u5FEB\u770B\uFF0C\u6751\u5B50\u7740\u706B\u4E86\u3002"
+    quest: {fileID: 0}
+    options: []
+  - ID: "\u4E3B\u89D21"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u4F60\u662F\u8C01\uFF1F\u6211\u4E3A\u4EC0\u4E48\u4F1A\u5728\u8FD9\u91CC\uFF1F\u4F60\u4EEC\u600E\u4E48\u90FD\u4F1A\u8BF4\u8BDD\u554A\uFF01\uFF01"
+    quest: {fileID: 0}
+    options: []
+  - ID: cat2
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u4F60\u600E\u4E48\u4EC0\u4E48\u90FD\u4E0D\u77E5\u9053\uFF0C\u5973\u5DEB\u627E\u4F60\u8FD9\u4E48\u4E2A\u8822\u8D27\u5230\u5E95\u8981\u5E72\u4EC0\u4E48\u3002\u4F60\u73B0\u5728\u4E0D\u5728\u5BB6\u5427\uFF1F\u8FD9\u7A97\u6237\u5916\u9762\u662F\u4F60\u5BB6\u7684\u6751\u5B50\uFF0C\u8FD9\u513F\u73B0\u5728\u7740\u706B\u4E86\uFF0C\u56DE\u53BB\u770B\u770B\u5427\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u6240\u4EE5\u6211\u73B0\u5728\u662F\u5728\u5973\u5DEB\u5BB6\u91CC\uFF1F\u5916\u9762\u90A3\u4E2A\u7740\u706B\u7684\u6751\u5B50\u662F\u6211\u5BB6\uFF1F"
+      targetID: cat3
+      takeQuest: 0
+    - text: "\u5565\uFF1F\u771F\u7684\u5047\u7684\uFF1F\u4F60\u5230\u5E95\u662F\u4EC0\u4E48\u4EBA\u554A\uFF0C\u4E3A\u4EC0\u4E48\u8981\u5413\u552C\u6211\uFF1F"
+      targetID: cat4
+      takeQuest: 0
+    - text: "\u4E3A\u4EC0\u4E48\u8981\u7528\u8FD9\u79CD\u65B9\u5F0F\u6765\u627E\u6211\uFF1F\u4E3A\u4EC0\u4E48\u4E0D\u5199\u4FE1\u6216\u8005\u76F4\u63A5\u6765\u89C1\u6211\uFF1F"
+      targetID: cat5
+      takeQuest: 0
+  - ID: cat3
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u662F\u7684\uFF0C\u770B\u6765\u4F60\u8FD8\u4E0D\u7B97\u592A\u8822\u3002\u8FD9\u662F\u4E00\u4E2A\u5C0F\u5C0F\u7684\u4EEA\u5F0F\uFF0C\u5973\u5DEB\u7ED9\u4F60\u6258\u4E86\u4E2A\u68A6\uFF0C\u8BA9\u4F60\u770B\u5230\u4E86\u5979\u60F3\u544A\u8BC9\u4F60\u7684\u4E8B\u60C5\u3002\u5F53\u7136\uFF0C\u65E2\u7136\u662F\u68A6\u5883\uFF0C\u4F60\u4E5F\u4E0D\u7528\u62C5\u5FC3\u81EA\u5DF1\u88AB\u70E7\u5230\uFF0C\u5E7B\u5F71\u7F62\u4E86\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u662F\u8C01\u70E7\u7684\uFF1F"
+      targetID: cat7
+      takeQuest: 0
+  - ID: cat4
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u70E6\u6B7B\u4E86\u6211\u600E\u4E48\u77E5\u9053\u5973\u5DEB\u4E3A\u4EC0\u4E48\u8981\u7BA1\u4F60\u7684\u7834\u4E8B\uFF0C\u7231\u4FE1\u4E0D\u4FE1\uFF0C\u53CD\u6B63\u70E7\u7684\u662F\u4F60\u5BB6\u53C8\u4E0D\u662F\u6211\u5BB6\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u6211\u4EEC\u4E0D\u4F1A\u88AB\u70E7\u7740\u5417\uFF1F"
+      targetID: cat6
+      takeQuest: 0
+    - text: "\u662F\u8C01\u70E7\u7684\uFF1F"
+      targetID: cat7
+      takeQuest: 0
+  - ID: cat5
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u4F60\u5929\u5929\u5230\u5904\u4E71\u8DD1\uFF0C\u4E0A\u54EA\u513F\u7ED9\u4F60\u5BC4\u4FE1\u53BB\u3002\u518D\u8BF4\u4E86\u73B0\u5728\u6559\u4F1A\u5230\u5904\u6293\u5973\u5DEB\uFF0C\u8981\u6211\u4EEC\u51FA\u95E8\u4E0D\u5C31\u662F\u53BB\u9001\u6B7B\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u6211\u4EEC\u4E0D\u4F1A\u88AB\u70E7\u7740\u5417\uFF1F"
+      targetID: cat6
+      takeQuest: 0
+    - text: "\u662F\u8C01\u70E7\u7684\uFF1F"
+      targetID: cat7
+      takeQuest: 0
+  - ID: cat6
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u53EA\u662F\u4E2A\u5E7B\u5F71\u7F62\u4E86\u3002\u8FD9\u662F\u5973\u5DEB\u7ED9\u4F60\u6258\u7684\u68A6\uFF0C\u68A6\u5883\u53C8\u4E0D\u662F\u5B8C\u5168\u771F\u5B9E\u7684\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u662F\u8C01\u70E7\u7684\uFF1F"
+      targetID: cat7
+      takeQuest: 0
+  - ID: cat7
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u6559\u4F1A\u90A3\u5E2E\u4EBA\u3002\u5177\u4F53\u4EC0\u4E48\u539F\u56E0\u5973\u5DEB\u6CA1\u544A\u8BC9\u6211\uFF0C\u4E0D\u8FC7\u6211\u731C\u53EF\u80FD\u662F\u4F60\u4EEC\u6751\u5B50\u548C\u5973\u5DEB\u626F\u4E0A\u5173\u7CFB\u4E86\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u53EF\u6211\u4E5F\u6CA1\u5728\u6751\u91CC\u89C1\u8FC7\u5973\u5DEB\u554A\uFF1F"
+      targetID: cat8
+      takeQuest: 0
+  - ID: cat8
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: 
+    text: "\u6559\u4F1A\u90A3\u7FA4\u4EBA\u53C8\u4E0D\u8BB2\u7406\uFF0C\u5973\u5DEB\u65E9\u5C31\u8D70\u4E86\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u597D\u5427\u3002\uFF08\u79BB\u5F00\uFF09"
+      targetID: 
+      takeQuest: 0

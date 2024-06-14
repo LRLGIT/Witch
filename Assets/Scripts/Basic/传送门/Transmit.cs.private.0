@@ -1,0 +1,56 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Transmit : MonoBehaviour
+{
+    public KeyCode key;
+    [Header("传送后场景名称")]
+    public string targetSceneName = "other";  // 默认场景名称
+    private bool canTransmit = false;
+    [Header("传送后角色位置")]
+    public Transform playerStartPosition;  // 保存角色位置
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        RestorePlayerPosition();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (canTransmit && Input.GetKeyDown(key))
+        {
+            // 加载新场景
+            SceneManager.LoadScene(targetSceneName);
+            RestorePlayerPosition();
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            canTransmit = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            canTransmit = false;
+        }
+    }
+
+    // 保存角色位置
+
+
+    // 还原角色位置
+    public void RestorePlayerPosition()
+    {
+        GameObject.FindGameObjectWithTag("Player").transform.position = playerStartPosition.position;
+    }
+}

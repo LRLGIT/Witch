@@ -1,0 +1,122 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public float moveSpeed;
+    public float runSpeed;
+    private float Rspeed = 1;
+
+    MusicAppear music;
+    bool isplay = false;//弹奏时
+    [Header("跑步")]
+    public KeyCode keyrun;
+
+
+    [Header("声波")]
+    public KeyCode key;
+    private BoxCollider2D boxCollider;
+    private Vector2 originalSize;
+    public float increasespeed = 0.1f;
+    public float duration = 10f;
+    public float totalIncreaseAmount = 5f;
+
+    Animator animator;
+    Vector3 movement;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        boxCollider = GetComponent<BoxCollider2D>();
+        originalSize = boxCollider.size; // 保存初始大小
+    }
+
+    void FixedUpdate()
+    {
+
+            Move(); 
+
+        if (Input.GetKeyDown(key))
+        {
+            // 开始协程，持续增加大小
+            StartCoroutine(IncreaseSizeOverTime());
+        }
+    }
+    private void Update()
+    {
+    }
+
+    IEnumerator IncreaseSizeOverTime()
+    {
+        float elapsedTime = 0f;
+        float total = totalIncreaseAmount;
+
+        while (elapsedTime < duration)
+        {
+            // 持续增加盒子大小
+            totalIncreaseAmount += increasespeed * Time.deltaTime;
+            Vector2 newSize = originalSize + new Vector2(totalIncreaseAmount, totalIncreaseAmount);
+            boxCollider.size = newSize;
+            // 增加已经过去的时间
+            elapsedTime += Time.deltaTime;
+
+            // 等待一帧
+            yield return null;
+        }
+
+        // 恢复原始大小
+        boxCollider.size = originalSize;
+        totalIncreaseAmount = total;
+    }
+
+    private void Move()
+    {
+        float horizontalInput = 0f;
+        float verticalInput = 0f;
+
+        // 检测按键输入来控制移动方向
+        if (Input.GetKey(KeyCode.D))
+        {
+            animator.SetBool("walk", true);
+            animator.SetBool("R", true);
+            horizontalInput = 1f;
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            animator.SetBool("walk", true);  
+            animator.SetBool("R", false);
+            horizontalInput = -1f;
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            animator.SetBool("walk", true);
+            verticalInput = 1f;
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            animator.SetBool("walk", true);
+            verticalInput = -1f;
+        }  
+        // 根据输入方向设置对象的位置
+        movement = new Vector3(horizontalInput, verticalInput, 0f) * moveSpeed *Rspeed*Time.deltaTime;
+        transform.Translate(movement);
+        if (Input.GetKey(keyrun)&&movement!=Vector3.zero)
+        {
+            Rspeed = runSpeed;
+            animator.SetBool("run", true);
+            animator.SetBool("walk", false);
+        }
+        else
+        {
+            animator.SetBool("run", false);
+            Rspeed = 1;
+        }
+        if(movement == Vector3.zero)
+        {
+            animator.SetBool("walk", false);
+        }
+    }
+}
+
+

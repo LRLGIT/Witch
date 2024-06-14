@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u795E\u7236\u4EFB\u52A1\u4E2D"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: "\u795E\u72361"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u795E\u7236"
+    END: 0
+    num: 0
+    text: "\u613F\u4E0A\u5E1D\u4FDD\u4F51\u4F60\uFF0C\u5916\u4E61\u4EBA\u3002\u554A\uFF0C\u6211\u7684\u610F\u601D\u662F\uFF0C\u6709\u4EC0\u4E48\u80FD\u5E2E\u52A9\u4F60\u7684\u5417\uFF1F"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options:
+    - text: "\u542C\u8BF4\u6559\u5802\u7684\u949F\u574F\u4E86\uFF0C\u949F\u8868\u5320\u62DC\u6258\u6211\u6765\u4FEE\u3002"
+      targetID: "\u795E\u72364"
+      takeQuest: 1
+    - text: "\u4F60\u662F\u8C01\uFF1F"
+      targetID: "\u795E\u72362"
+      takeQuest: 0
+    - text: "\u6CA1\u4EC0\u4E48\uFF0C\u518D\u89C1\u3002"
+      targetID: "\u795E\u72366"
+      takeQuest: 0
+  - ID: "\u795E\u72364"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u795E\u7236"
+    END: 0
+    num: 0
+    text: "\u592A\u597D\u4E86\uFF0C\u542C\u8BF4\u949F\u8868\u5320\u4E00\u76F4\u5728\u5FD9\uFF0C\u8FD9\u91CC\u7684\u949F\u5DF2\u7ECF\u574F\u4E86\u5F88\u4E45\uFF0C\u5F88\u4E45\u4E86\uFF0C\u5E0C\u671B\u4F60\u80FD\u5C3D\u5FEB\u4FEE\u597D\u5B83\u3002\u5B83\u4E0D\u62A5\u65F6\uFF0C\u5927\u5BB6\u90FD\u4E0D\u77E5\u9053\u73B0\u5728\u662F\u4EC0\u4E48\u65F6\u95F4\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u795E\u72364-1"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u795E\u7236"
+    END: 0
+    num: 0
+    text: "\u5982\u679C\u4F60\u6709\u624B\u67C4\u7684\u8BDD\uFF0C\u6253\u5F00\u897F\u8FB9\u7684\u67DC\u5B50\u91CC\uFF0C\u63D2\u5165\u624B\u67C4\uFF0C\u5C31\u53EF\u4EE5\u68C0\u67E5\u8C03\u6574\u4E86\u3002\u949F\u8868\u7684\u673A\u68B0\u88C5\u7F6E\u5728\u4E8C\u697C\uFF0C\u5982\u679C\u9700\u8981\u96F6\u4EF6\u7684\u8BDD\uFF0C\u5728\u6742\u7269\u95F4\u91CC\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u795E\u72364-2"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u795E\u7236"
+    END: 0
+    num: 0
+    text: "\u4F46\u5B9E\u5728\u62B1\u6B49\uFF0C\u67DC\u5B50\u73B0\u5728\u65E0\u6CD5\u6253\u5F00\uFF0C\u897F\u8FB9\u67DC\u5B50\u7684\u94A5\u5319\u5B58\u653E\u5728\u4E1C\u8FB9\u7684\u67DC\u5B50\u4E2D\uFF0C\u4E1C\u8FB9\u67DC\u5B50\u7684\u94A5\u5319\u8FD8\u6D88\u5931\u4E86\uFF0C\u975E\u5E38\u62B1\u6B49\uFF0C\u975E\u5E38\u62B1\u6B49\u2026\u2026\r"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u4E3B\u89D2"
+    imageL: {fileID: 0}
+    imageR: {fileID: 21300000, guid: e0f3cc4c44391584ea35eb931b0205a2, type: 3}
+    Name: "\u62DC\u5C14\u5FB7"
+    END: 0
+    num: 0
+    text: "\u6D88\u5931\u4E86\uFF1F\u4E22\u4E86\u5417\uFF1F\u6211\u5E94\u8BE5\u53BB\u54EA\u91CC\u627E\u94A5\u5319\uFF1F"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u795E\u72365"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u795E\u7236"
+    END: 1
+    num: 0
+    text: "\u6211\u4E0D\u77E5\u9053\uFF0C\u6211\u4E0D\u77E5\u9053\u3002\u662F\u7684\uFF0C\u6D88\u5931\u4E86\u3002\u5F88\u4E45\uFF0C\u5F88\u4E45\u4EE5\u524D\u5C31\u6D88\u5931\u4E86\uFF0C\u88AB\u67D0\u4E9B\u4E1C\u897F\u5E26\u8D70\u4E86......\u6211\u8FD8\u662F\u975E\u5E38\u5E0C\u671B\u80FD\u4FEE\u597D\u6559\u5802\u7684\u949F\u7684\uFF0C\u6CA1\u6709\u5B83\u7684\u62A5\u65F6\uFF0C\u5C31\u65E0\u6CD5\u77E5\u9053\u73B0\u5728\u51E0\u70B9\u949F\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u795E\u72362"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u795E\u7236"
+    END: 1
+    num: 0
+    text: "\u6211\uFF1F\u6211\u662F\u6469\u987F\u6751\u7684\u795E\u7236\u3002\u613F\u4E0A\u5E1D\u4FDD\u4F51\u4F60\uFF0C\u4FDD\u4F51\u4F60\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []
+  - ID: "\u795E\u72366"
+    imageL: {fileID: 0}
+    imageR: {fileID: 0}
+    Name: "\u795E\u7236"
+    END: 1
+    num: 0
+    text: "\u518D\u89C1\uFF0C\u518D\u89C1\u3002\u613F\u4E0A\u5E1D\u4FDD\u4F51\u4F60\u3002"
+    quest: {fileID: 0}
+    item: {fileID: 0}
+    options: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789493e681b8bf4fbf9601385856eed, type: 3}
+  m_Name: moon
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: moon
+  itemIcon: {fileID: 21300000, guid: 25af110119ac83d4eb4826cd891bd5ad, type: 3}
+  itemSprite: {fileID: 21300000, guid: d6ed190c546625143a73f3441a6f227b, type: 3}
+  itemAmount: 1
+  description: moon
+  stackable: 0
+  Prefab: {fileID: 580715312952272640, guid: 6f00fb36ecd8a0e4099fca31bc2f7c38, type: 3}

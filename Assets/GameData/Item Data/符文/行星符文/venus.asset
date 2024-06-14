@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789493e681b8bf4fbf9601385856eed, type: 3}
+  m_Name: venus
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: venus
+  itemIcon: {fileID: 21300000, guid: 97856c632a19b874e9b393c0184b51ee, type: 3}
+  itemSprite: {fileID: 21300000, guid: 58801a814ab10334a83e1760289dce2a, type: 3}
+  itemAmount: 1
+  description: venus
+  stackable: 0
+  Prefab: {fileID: 2795124122061438727, guid: 5d64b3fe15d437b42903a0fe5191f9b2, type: 3}

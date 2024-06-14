@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f699d2861599364380530397f1aa5e9, type: 3}
+  m_Name: "\u9152\u9986\u8001\u677F\u63A5\u53D6\u4EFB\u52A1"
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: "\u9152\u9986\u8001\u677F"
+    image: {fileID: 0}
+    Name: 
+    text: "\u4F60\u597D\uFF0C\u9700\u8981\u4E9B\u4EC0\u4E48\uFF1F"
+    quest: {fileID: 0}
+    options:
+    - text: "\u4F60\u597D\u54C7\uFF0C\u6211\u60F3\u5411\u4F60\u6253\u542C\u4E00\u4E2A\u4EBA\u3002"
+      targetID: "\u5BF9\u8BDD1"
+      takeQuest: 0
+    - text: "\u4E0D\uFF0C\u6211\u6CA1\u4EC0\u4E48\u4E8B"
+      targetID: "\u5BF9\u8BDD2"
+      takeQuest: 0
+  - ID: "\u5BF9\u8BDD1"
+    image: {fileID: 0}
+    Name: 
+    text: "\u6211\u4EEC\u8FD9\u513F\u5C31\u662F\u4E2A\u5C0F\u9152\u9986\uFF0C\u6BD4\u4E0D\u5F97\u57CE\u91CC\u90A3\u4E9B\u5927\u9152\u9986\uFF0C\u53EF\u6CA1\u6709\u90A3\u4E48\u591A\u7684\u7A00\u5947\u4E8B\u8BA9\u4F60\u6253\u542C\u2014\u2014\u4E0D\u8FC7\u6751\u91CC\u7684\u53D1\u751F\u7684\u4E8B\u8FD8\u662F\u9003\u4E0D\u8FC7\u6211\u7684\u8033\u6735\u7684\u3002\u4F60\u60F3\u95EE\u4EC0\u4E48\uFF1F\u5662\u53E6\u5916\u6253\u63A2\u6D88\u606F\u53EF\u4E0D\u662F\u514D\u8D39\u7684\uFF0C\u6211\u662F\u751F\u610F\u4EBA\uFF0C\u6CA1\u597D\u5904\u7684\u4E70\u5356\u6211\u53EF\u4E0D\u505A\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u6211\u6CA1\u6709\u94B1"
+      targetID: "\u5BF9\u8BDD3"
+      takeQuest: 0
+    - text: "\u6211\u7684\u94B1\u521A\u521A\u88AB\u5077\u4E86"
+      targetID: "\u5BF9\u8BDD4"
+      takeQuest: 0
+    - text: "\u597D\u5427\uFF0C\u7ED9\u3002\uFF08\u4EA4\u4ED8\u91D1\u5E01\uFF09"
+      targetID: "\u5BF9\u8BDD8"
+      takeQuest: 0
+  - ID: "\u5BF9\u8BDD2"
+    image: {fileID: 0}
+    Name: 
+    text: "\u90A3\u5C31\u8D76\u5FEB\u8D70\uFF0C\u6211\u53EF\u6CA1\u5DE5\u592B\u62DB\u5F85\u4E00\u4E2A\u7A77\u9B3C\u3002"
+    quest: {fileID: 0}
+    options:
+    - text: "\u518D\u89C1"
+      targetID: 
+      takeQuest: 0
+  - ID: "\u5BF9\u8BDD4"
+    image: {fileID: 0}
+    Name: 
+    text: "\u90A3\u4F60\u8FD8\u5728\u8FD9\u513F\u5E72\u4EC0\u4E48\uFF1F\u8D76\u7D27\u8D70\uFF0C\u522B\u5F71\u54CD\u6211\u505A\u751F\u610F"
+    quest: {fileID: 0}
+    options:
+    - text: "\uFF08\u79BB\u5F00\uFF09"
+      targetID: 
+      takeQuest: 0
+  - ID: "\u5BF9\u8BDD3"
+    image: {fileID: 0}
+    Name: 
+    text: "\u4F60\u4E0D\u662F\u80CC\u4E86\u628A\u7434\uFF1F\u5F39\u4E24\u66F2\u542C\u542C\uFF0C\u5174\u8BB8\u6211\u9AD8\u5174\u4E86\u5C31\u80FD\u60F3\u8D77\u70B9\u4EC0\u4E48"
+    quest: {fileID: 11400000, guid: 3bf19d9aea7d92f40ac942183bc6eb2e, type: 2}
+    options:
+    - text: "\u597D\u554A\uFF01\u73B0\u5728\u5C31\u53EF\u4EE5\u3002"
+      targetID: "\u5BF9\u8BDD5"
+      takeQuest: 0
+    - text: "\u53EF\u4EE5\u554A\uFF0C\u4F46\u6211\u60F3\u5148\u53BB\u5176\u4ED6\u5730\u65B9\u770B\u770B\uFF0C\u665A\u70B9\u518D\u8FC7\u6765"
+      targetID: "\u5BF9\u8BDD6"
+      takeQuest: 0
+    - text: "\u4E0D\u4E86\uFF0C\u6211\u73B0\u5728\u6CA1\u5FC3\u60C5"
+      targetID: "\u5BF9\u8BDD4"
+      takeQuest: 0
+  - ID: "\u5BF9\u8BDD5"
+    image: {fileID: 0}
+    Name: 
+    text: "\u558F\uFF0C\u821E\u53F0\u5C31\u5728\u90A3\u8FB9\uFF0C\u51C6\u5907\u597D\u4E86\u5C31\u8FC7\u53BB\u5427\u3002"
+    quest: {fileID: 11400000, guid: 3bf19d9aea7d92f40ac942183bc6eb2e, type: 2}
+    options:
+    - text: "(\u53BB\u821E\u53F0\uFF09"
+      targetID: 
+      takeQuest: 1
+  - ID: "\u5BF9\u8BDD6"
+    image: {fileID: 0}
+    Name: 
+    text: "\u90A3\u4F60\u8BB0\u5F97\u5BA3\u4F20\u5BA3\u4F20\u8BF4\u4E0D\u5B9A\u6765\u7684\u4EBA\u66F4\u591A\u4E86\uFF0C\u4E0D\u8FC7\u4F60\u5F97\u6765\u554A\uFF0C\u6211\u53EF\u8BB0\u4F4F\u4F60\u4E86!"
+    quest: {fileID: 11400000, guid: 3bf19d9aea7d92f40ac942183bc6eb2e, type: 2}
+    options:
+    - text: "\u597D,\u4E00\u5B9A"
+      targetID: 
+      takeQuest: 1
+    - text: "\u53EA\u8981\u4F60\u80FD\u5982\u5B9E\u7ED9\u6211\u60C5\u62A5\uFF0C\u6211\u5C31\u8BB0\u5F97\u4F1A\u6765\u3002"
+      targetID: 
+      takeQuest: 1
+  - ID: "\u5BF9\u8BDD8"
+    image: {fileID: 0}
+    Name: 
+    text: "\u91D1\u5E01\u53EF\u4E0D\u4F1A\u9A97\u4EBA\uFF0C\u95EE\u95EE\u8349\u836F\u94FA\u5B50\u7684\u8001\u677F\u5427\uFF0C\u5C31\u8BF4\u662F\u6211\u4ECB\u7ECD\u4F60\u53BB\u7684"
+    quest: {fileID: 11400000, guid: feb68e2e87cc132489843c5ff7d27f25, type: 2}
+    options:
+    - text: "\u597D\u7684\uFF0C\u8C22\u8C22\u4F60\u3002\uFF08\u79BB\u5F00\uFF09"
+      targetID: 
+      takeQuest: 1
